@@ -1,0 +1,12 @@
+function findAverage(array) {
+  // your code here
+  if(array.length===0){
+    return 0;
+  }
+  var sum=0;
+  for(var i=0; i<array.length;i++){
+    sum+=array[i];
+  }
+  sum=sum/array.length;
+  return sum;
+}
