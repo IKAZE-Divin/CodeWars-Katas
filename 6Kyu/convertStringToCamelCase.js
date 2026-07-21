@@ -10,3 +10,16 @@ function toCamelCase(str){
 }
 
 console.log(toCamelCase("the_stealth_warrior"));
+
+// function toCamelCase(str){
+//   let brockenDown=str.split(/[_-]+/);
+//   for(let i=0; i<brockenDown;i++){
+//     if(brockenDown[i]!=brockenDown[0]){
+//       brockenDown.word.charAt(0).toUpperCase();
+//     }
+//   }
+//   let joining= brockenDown.join("");
+//   return joining;
+// }
+
+// console.log(toCamelCase("the_stealth_warrior"));
